@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,100&family=Lexend+Deca&family=Montserrat:wght@500&family=Orbitron&family=Outfit&family=Red+Hat+Display:wght@500&display=swap");
+
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+h1 {
+  font-weight: bold;
+  font-family: "Josefin Sans";
+}
+.randomPassword {
+  color: #4adf86;
+}
+
+.container button {
+  background-color: #10b981;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.container p {
+  color: #d5d4d8;
+}
+
+h1 {
+  line-height: 1;
+}
+
+.neverUse {
+  font-style: italic;
+}
+
+p {
+  line-height: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 150px;
+  background-color: #1f2937;
+  padding: 40px 50px 50px 50px;
+  min-width: 500px;
+}
+
+button {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-family: "Josefin Sans";
+}
+
+hr {
+  border: 1px solid #2f3e53;
+}
+
+.options {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.option1,
+.option2 {
+  width: 200px;
+  height: 32px;
+  background: #273549;
+  font-family: "Josefin Sans";
+}
+
+#password1,
+#password2 {
+  color: #4adf86;
+}
+
+button:hover {
+  background: #273549;
+  color: #4adf86;
+  transition: background 0.2s ease-in;
+  cursor: pointer;
+}
